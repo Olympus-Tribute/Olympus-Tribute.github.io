@@ -94,3 +94,42 @@ h4{
 	padding-left: 7%;
 	padding-right: 7%;
 }
+.Partie
+{
+	border-width : 3px;
+	padding-left : 50px;
+	padding-right : 50px;
+	margin-bottom : 5%;
+}
+.Partie td
+{
+	text-align : center;
+	width : 20%;
+}
+a img {
+    width: 90%;
+    transition: transform 0.3s ease;
+	border-radius: 50%;
+}
+
+a img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+a:link
+{
+	color : 8A2BE2;
+}
+.Partie2 td
+{
+	text-align : center;
+	width : 20%;
+}
+.Partie2 a img {
+    width: 60%;
+    transition: transform 0.3s ease;
+	border-radius: 50%;
+}
+table{
+	padding-bottom: 5%;
+}

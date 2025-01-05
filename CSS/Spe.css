@@ -8,6 +8,7 @@ body {
 	flex-direction: column;
 	height: 100vh;
 	margin: 0;
+	padding-bottom: 10%;
 }
 
 .menu {

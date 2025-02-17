@@ -71,21 +71,12 @@ h1{
 h3{
 	font-size: 18pt;
 }
-footer {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	padding-left: 15px;
-	padding-top: 35px;
-	height: 18%;
-}
+
 p{
 	font-size: 18pt;
 }
 
-footer img {
-	max-height: 100%;
-}
+
 table{
 	padding-bottom: 3%;
 }
@@ -101,3 +92,15 @@ a {
     text-decoration: none;
 	color:black;
 }
+@media (max-width: 768px) {
+	.menu {
+	  width: 40%; /* Réduire la largeur du menu sur les petits écrans */
+	  font-size: 12pt;
+	  padding: 1rem;
+	}
+  
+	header img {
+	  max-height: 120%;
+	}
+	
+  }

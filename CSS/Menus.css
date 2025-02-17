@@ -71,6 +71,7 @@ header img {
 	max-height: 150%;
 }
 
+
 footer {
 	display: flex;
 	justify-content: flex-start;
@@ -78,12 +79,27 @@ footer {
 	padding-left: 15px;
 	padding-top: 35px;
 	height: 18%;
-}
-
-footer img {
+	margin-top: auto; /* Permet de garder le footer au bas de la page */
+  }
+  
+  footer img {
 	max-height: 100%;
-}
+  }
+
 a {
     text-decoration: none;
 	color:black;
 }
+
+@media (max-width: 768px) {
+	.menu {
+	  width: 40%; /* Réduire la largeur du menu sur les petits écrans */
+	  font-size: 12pt;
+	  padding: 1rem;
+	}
+  
+	header img {
+	  max-height: 120%;
+	}
+ 
+  }

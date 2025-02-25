@@ -1,3 +1,7 @@
+html {
+	background-image: url(../Static/fond_menu.png);
+	background-size : 100% 100%;
+}
 body {
 	font-family: Garamond;
 	display: flex;
@@ -5,7 +9,7 @@ body {
 	height: 100vh;
 	background-color: white;
 	margin: 0;
-	overflow: hidden;
+	padding-bottom: 10%;
 	
 }
 
@@ -71,20 +75,6 @@ header img {
 	max-height: 150%;
 }
 
-
-footer {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	padding-left: 15px;
-	padding-top: 35px;
-	height: 18%;
-	margin-top: auto; /* Permet de garder le footer au bas de la page */
-  }
-  
-  footer img {
-	max-height: 100%;
-  }
 
 a {
     text-decoration: none;

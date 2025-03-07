@@ -1,6 +1,6 @@
 html {
 	background-image: url(../Static/fond.png);
-	background-size : 100% 100%;
+	background-size : 101% ;
 }
 body {
 	font-family: Garamond;
@@ -60,6 +60,7 @@ header {
 	padding-left: 35%; 
 	padding-right: 13%;
 	padding-bottom: 41%;
+	background-color: transparent;
 }
 
 h1{

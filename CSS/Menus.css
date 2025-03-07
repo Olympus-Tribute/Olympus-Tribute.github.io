@@ -1,7 +1,4 @@
-html {
-	background-image: url(../Static/fond_menu.png);
-	background-size : 100% 100%;
-}
+
 body {
 	font-family: Garamond;
 	display: flex;
@@ -57,14 +54,12 @@ body {
 }
 
 header {
-	background-color: white;
 	height: 70%;
-	position: flex;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	padding-top: 5%;
-	padding-left: 26%; 
+	padding-top: 3%;
+	padding-left: 38%; 
+	padding-right: 13%;
+	padding-bottom: 41%;
+	background-color: transparent;
 }
 
 header img {
@@ -81,15 +76,24 @@ a {
 	color:black;
 }
 
-@media (max-width: 768px) {
-	.menu {
-	  width: 40%; /* Réduire la largeur du menu sur les petits écrans */
-	  font-size: 12pt;
-	  padding: 1rem;
-	}
-  
-	header img {
-	  max-height: 120%;
-	}
+@media (max-width: 1000px) {
+    .menu {
+        width: 20%; /* Réduire la largeur du menu sur les petits écrans */
+        font-size: 12pt;
+        padding: 1rem;
+    }
+
+    header {
+        padding-left: 30%;
+		padding-top: 7%;
+        justify-content: flex-start;
+    }
+
+    header img {
+        width: 120%;
+        max-width: 150%; /* Assure que l'image ne dépasse pas */
+        height: auto; /* Maintient le ratio hauteur/largeur */
+        margin: 2px;
+    }
+}
  
-  }

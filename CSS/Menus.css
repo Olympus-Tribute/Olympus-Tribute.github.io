@@ -78,7 +78,7 @@ a {
 
 @media (max-width: 1000px) {
     .menu {
-        width: 20%; /* Réduire la largeur du menu sur les petits écrans */
+        width: 20%;
         font-size: 12pt;
         padding: 1rem;
     }
@@ -91,8 +91,8 @@ a {
 
     header img {
         width: 120%;
-        max-width: 150%; /* Assure que l'image ne dépasse pas */
-        height: auto; /* Maintient le ratio hauteur/largeur */
+        max-width: 150%;
+        height: auto;
         margin: 2px;
     }
 }

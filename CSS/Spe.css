@@ -94,7 +94,7 @@ a {
 }
 @media (max-width: 768px) {
 	.menu {
-	  width: 40%; /* Réduire la largeur du menu sur les petits écrans */
+	  width: 40%;
 	  font-size: 12pt;
 	  padding: 1rem;
 	}

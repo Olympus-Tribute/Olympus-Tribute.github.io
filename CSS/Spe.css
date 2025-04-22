@@ -16,7 +16,7 @@ body {
 	top: 5%;
 	left: 5%;
 	height: auto;
-	width: 20%;
+	width: 18%;
 	background-color: white;
 	color: black;
 	display: flex;
@@ -24,7 +24,7 @@ body {
 	padding: 2rem;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 	z-index: 10;
-	font-size: 15pt;
+	font-size: 17pt;
 }
 
 .menu h2 {
@@ -57,7 +57,7 @@ body {
 header {
 	height: 70%;
 	padding-top: 3%;
-	padding-left: 35%; 
+	padding-left: 32%; 
 	padding-right: 13%;
 	padding-bottom: 42%;
 	background-color: transparent;
